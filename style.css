@@ -32,6 +32,7 @@ body {
     height: 440px;
     margin: 100px auto;
     font-family: 'Rubik', sans-serif;
+    box-shadow: 5px 5px 10px rgba(142, 132, 132, 0.3);
     
 }
 
@@ -119,17 +120,19 @@ hr {
 .velikosti {
     display: flex;
     list-style: none;
+    padding: 0;
+
    
 }
 
 li {
-    margin: 0 auto;
-    padding: 5px;
+    margin: 0 7px;
+    padding: 3px;
+    /*font-size: 16px;*/
 }
 
 .vybrana {
     color: #f15f42;
-    /*jak dál?*/
     border: 0.5px solid #f15f42;
     border-radius: 50%;
     
